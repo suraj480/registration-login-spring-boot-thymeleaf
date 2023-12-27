@@ -15,3 +15,16 @@
 2. write logic in loadUserByUsername(in UserServiceImpl)
 3. Create a main controller to go to login page
 4. private BCryptPasswordEncoder passwordEncoder;  (encode password in serviceimpl)
+
+# Login frontend
+1. Create login.html in templates folder
+
+
+### Note i need to make SSL=true in application.properties
+
+### add dependecy for printing something from springsecurity
+< dependency>
+		<groupId>org.thymeleaf.extras</groupId>
+		<artifactId>thymeleaf-extras-springsecurity5</artifactId>
+		</dependency>
+2. use like this in index.html < span sec:authentication="principal.username">

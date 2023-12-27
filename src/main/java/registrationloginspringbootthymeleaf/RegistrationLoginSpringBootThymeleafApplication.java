@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EntityScan("registrationloginspringbootthymeleaf")
-@ComponentScan(basePackages = {"registrationloginspringbootthymeleaf.model","registrationloginspringbootthymeleaf.repository","registrationloginspringbootthymeleaf.UserService","registrationloginspringbootthymeleaf.web","registrationloginspringbootthymeleaf.web.dto"})
-@EnableJpaRepositories(basePackages = {"registrationloginspringbootthymeleaf.model","registrationloginspringbootthymeleaf.repository","registrationloginspringbootthymeleaf.UserService","registrationloginspringbootthymeleaf.web","registrationloginspringbootthymeleaf.web.dto"})
+@ComponentScan(basePackages = {"registrationloginspringbootthymeleaf.model","registrationloginspringbootthymeleaf.repository","registrationloginspringbootthymeleaf.UserService","registrationloginspringbootthymeleaf.web","registrationloginspringbootthymeleaf.web.dto","registrationloginspringbootthymeleaf.config"})
+@EnableJpaRepositories(basePackages = {"registrationloginspringbootthymeleaf.model","registrationloginspringbootthymeleaf.repository","registrationloginspringbootthymeleaf.UserService","registrationloginspringbootthymeleaf.web","registrationloginspringbootthymeleaf.web.dto","registrationloginspringbootthymeleaf.config"})
 public class RegistrationLoginSpringBootThymeleafApplication {
 
 	public static void main(String[] args) {
