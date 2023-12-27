@@ -9,3 +9,9 @@
 3. add configuration in config.java 
 4. extend userService to UserDetailsService
 5. override method in UserServiceImpl
+
+# Login backend
+1.create method in UserRepository
+2. write logic in loadUserByUsername(in UserServiceImpl)
+3. Create a main controller to go to login page
+4. private BCryptPasswordEncoder passwordEncoder;  (encode password in serviceimpl)
